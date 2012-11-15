@@ -10,7 +10,7 @@ Vcs-Browser: http://git.kali.org/gitweb/?p=packages/dhcpig.git;a=summary
 
 Package: dhcpig
 Architecture: all
-Depends: ${misc:Depends}, python-scapy, tcpdump
+Depends: ${misc:Depends}, python-scapy, tcpdump, python
 Description: DHCP exhaustion script
  DHCPig initiates an advanced DHCP exhaustion attack. It 
  will consume all IPs on the LAN, stop new users from 
