@@ -1,0 +1,24 @@
+Source: dhcpig
+Section: net
+Priority: extra
+Maintainer: dookie <dookie@kali.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/kamorin/DHCPig
+Vcs-Git: ssh://git@git.kali.org/packages/dhcpig.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/dhcpig.git;a=summary
+
+Package: dhcpig
+Architecture: all
+Depends: ${misc:Depends}, python-scapy, tcpdump
+Description: DHCP exhaustion script
+ DHCPig initiates an advanced DHCP exhaustion attack. It 
+ will consume all IPs on the LAN, stop new users from 
+ obtaining IPs, release any IPs in use, then for good measure 
+ send gratuitous ARP and knock all windows hosts offline.
+ .
+ It requires scapy >=2.1 library and admin privileges to 
+ execute. No configuration necessary, just pass the interface 
+ as a parameter. It has been tested on multiple Linux 
+ distributions and multiple DHCP servers (ISC,Windows 2k3/2k8).
+
