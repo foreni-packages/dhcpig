@@ -1,3 +1,9 @@
+dhcpig (0.1-1kali2) kali; urgency=low
+
+  * Removed desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 07:11:49 -0500
+
 dhcpig (0.1-1kali1) kali; urgency=low
 
   * Initial release 

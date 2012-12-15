@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=dhcpig
-Encoding=UTF-8
-Exec=sh -c "pig.py -h;sudo -s"
-Icon=kali-menu.png
-StartupNotify=false
-Terminal=true
-Type=Application
-Categories=09-02-01-network-stress-testing;
