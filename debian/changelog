@@ -1,3 +1,9 @@
+dhcpig (0.2-1kali1) kali; urgency=low
+
+  * Upstream update
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 13 Oct 2014 04:20:25 -0400
+
 dhcpig (0.1-1kali2) kali; urgency=low
 
   * Removed desktop files
